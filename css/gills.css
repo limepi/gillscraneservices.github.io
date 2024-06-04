@@ -127,3 +127,26 @@
     background-color: green;
     color: white;
 }
+
+.blue {
+    background-color: cadetblue
+}
+
+.largenav {
+    font-size: large;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: rgb(165 207 244);
+    font-weight: 600;
+}
+
+.btn-custom-nav {
+    padding: 15px;
+}
