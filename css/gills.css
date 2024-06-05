@@ -1,4 +1,3 @@
-
 .custom-row {
     background-color: #abc0d4;
     /* Light gray background color */
@@ -9,9 +8,9 @@
     margin-top: 20px;
     /* Add some space at the top */
 
-  }
+}
 
-  .custom-row1 {
+.custom-row1 {
     background-color: #7a7f85;
     /* Light gray background color */
     border: 4px solid #01070e;
@@ -21,14 +20,14 @@
     margin-top: 20px;
     /* Add some space at the top */
     margin-bottom: 20px;
-  }
+}
 
-  .bold {
+.bold {
     font-weight: 900;
     padding: 20px;
-  }
+}
 
-  .hero {
+.hero {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -39,39 +38,46 @@
     justify-content: center;
     text-align: center;
     color: white;
-  }
+}
 
-  .hero-text {
+.hero-text {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 10px;
     width: 90%;
-  }
+}
 
-  .btn-custom {
+.btn-custom {
     padding: 30px;
     margin: 50px;
-  }
+}
 
-  @media (min-width: 768px) {
+
+@media (min-width: 400px) {
     .hero-text {
-      width: 70%;
+        width: 40%;
     }
-  }
+}
 
-  @media (min-width: 992px) {
+@media (min-width: 768px) {
     .hero-text {
-      width: 90%;
+        width: 70%;
     }
-  }
+}
 
-  @media (min-width: 1200px) {
+@media (min-width: 992px) {
     .hero-text {
-      width: 90%;
+        width: 90%;
     }
-  }
+}
 
-  .card {
+@media (min-width: 1200px) {
+    .hero-text {
+        width: 90%;
+    }
+}
+
+.card {
     background-color: rgb(1, 67, 88);
     margin: 10px;
     font-size: 12px;
@@ -102,27 +108,28 @@
 }
 
 
-  .list-group-item {
+.list-group-item {
     border: none;
     /* Remove borders from list group items */
     padding-left: 0;
     /* Optional: Adjust padding to align text */
-  }
+}
 
-  .table-bg {
+.table-bg {
     background-color: #f8f9fa;
     /* Light background color for the table */
     padding: 20px;
     /* Add padding around the table for spacing */
     border-radius: 10px;
     /* Optional: Add rounded corners */
-  }
+}
 
 
-  .cardblue {
+.cardblue {
     background-color: lightblue;
     margin: 10px;
 }
+
 .btn-green {
     background-color: green;
     color: white;
