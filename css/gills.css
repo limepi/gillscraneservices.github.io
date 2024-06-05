@@ -52,15 +52,14 @@
     margin: 10px;
 }
 @media (min-width: 376px) {
-    /* .hero-text {
-        width: 100%;
-        height: .4vh;
+.hero-text {
+
         font-size: small;
     }
-    .btn-custom {
+.btn-custom {
         padding: 10px;
         margin: 10px;
-    } */
+    }
 
 }
 
