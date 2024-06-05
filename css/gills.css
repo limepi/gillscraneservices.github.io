@@ -62,7 +62,7 @@
         margin: 10px;
     }
 
-    .hero {
+    /* .hero {
         position: relative;
         width: 100%;
         background: url('/images/bulkhead-gills.jpg') no-repeat center center;
@@ -82,7 +82,7 @@
     }
     .h1 {
         font-size: small !important;
-    }
+    } */
 }
 
 @media (min-width: 450px) {
