@@ -57,6 +57,10 @@
         height: .4vh;
         font-size: small;
     }
+    .btn-custom {
+        padding: 10px;
+        margin: 10px;
+    }
 }
 
 @media (min-width: 450px) {
