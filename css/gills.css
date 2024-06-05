@@ -74,13 +74,13 @@
 
 @media (min-width: 768px) {
     .hero-text {
-        width: 70%;
+        width: 100%;
     }
 }
 
 @media (min-width: 992px) {
     .hero-text {
-        width: 90%;
+        width: 100%;
     }
 }
 
