@@ -55,7 +55,8 @@
 
 @media (min-width: 400px) {
     .hero-text {
-        width: 40%;
+        width: 100%;
+        font-size: medium;
     }
 }
 
