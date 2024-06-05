@@ -93,7 +93,7 @@
     background-color: rgb(1, 67, 88) !important;
     margin: 10px;
     font-size: 12px;
-    color: white;
+    color: white  !important;
 }
 
 .btn-green {
