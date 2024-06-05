@@ -1,0 +1,152 @@
+
+.custom-row {
+    background-color: #abc0d4;
+    /* Light gray background color */
+    border: 1px solid #ced4da;
+    /* Gray border */
+    padding: 15px;
+    /* Add padding */
+    margin-top: 20px;
+    /* Add some space at the top */
+
+  }
+
+  .custom-row1 {
+    background-color: #7a7f85;
+    /* Light gray background color */
+    border: 4px solid #01070e;
+    /* Gray border */
+    padding: 15px;
+    /* Add padding */
+    margin-top: 20px;
+    /* Add some space at the top */
+    margin-bottom: 20px;
+  }
+
+  .bold {
+    font-weight: 900;
+    padding: 20px;
+  }
+
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('/images/bulkhead-gills.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+
+  .hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+  }
+
+  .btn-custom {
+    padding: 30px;
+    margin: 50px;
+  }
+
+  @media (min-width: 768px) {
+    .hero-text {
+      width: 70%;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .hero-text {
+      width: 90%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .hero-text {
+      width: 90%;
+    }
+  }
+
+  .card {
+    background-color: rgb(1, 67, 88);
+    margin: 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+.drab {
+    background-color: #2e2e2d;
+    /* Marine color */
+    margin: 10px;
+    color: white;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+.icon {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+  .list-group-item {
+    border: none;
+    /* Remove borders from list group items */
+    padding-left: 0;
+    /* Optional: Adjust padding to align text */
+  }
+
+  .table-bg {
+    background-color: #f8f9fa;
+    /* Light background color for the table */
+    padding: 20px;
+    /* Add padding around the table for spacing */
+    border-radius: 10px;
+    /* Optional: Add rounded corners */
+  }
+
+
+  .cardblue {
+    background-color: lightblue;
+    margin: 10px;
+}
+.btn-green {
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    background-color: cadetblue
+}
+
+.largenav {
+    font-size: large;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: rgb(165 207 244);
+    font-weight: 600;
+}
+
+.btn-custom-nav {
+    padding: 15px;
+}
